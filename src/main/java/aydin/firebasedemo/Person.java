@@ -3,7 +3,7 @@ package aydin.firebasedemo;
 public class Person {
     private String name;
     private int age;
-    private String phone; // new field
+    private String phone;
 
     public Person(String name, int age, String phone) {
         this.name = name;
@@ -13,7 +13,7 @@ public class Person {
 
 
     public Person(String name, int age) {
-        this(name, age, ""); // default phone empty
+        this(name, age, "");
     }
 
 
